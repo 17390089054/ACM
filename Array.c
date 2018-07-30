@@ -1,8 +1,9 @@
 #include <stdio.h>
-#define maxlength 105
-int a[maxlength];
+#define maxlength 1000005
+ int a[maxlength];
 int main()
 {
+   
     int x,n=0;
     while(scanf("%d",&x)==1)
         a[n++]=x;
